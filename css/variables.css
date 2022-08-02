@@ -1,0 +1,13 @@
+:root {
+  --background: #d9d2d3;
+  --primary: #4e3b3e;
+  --buttons: #654a70;
+  --card: #e4eaf2;
+  --icons: #8c6973;
+  --error: #ed553b;
+  --success: #3caea3;
+  --warning: #f6d55c;
+  --headings: "cormorant", "serif";
+  --body-text: "lato", "avenir", "sans serif";
+  --nav-text: "lato", "avenir", "sans serif";
+}

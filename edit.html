@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fbd3401b24.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Lato:wght@300;400&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="data:;base64,=" />
+    <title>Edit article</title>
+  </head>
+  <body>
+    <nav class="nav-container"></nav>
+    <div class="wrapper">
+      <h1>Edit article</h1>
+      <div class="loader"></div>
+      <form class="edit-form">
+        <div class="input-wrapper">
+          <label for="title">Title</label>
+          <input type="text" class="input" id="title" />
+        </div>
+        <div class="input-wrapper">
+          <label for="author">Author</label>
+          <input type="text" class="input" id="author" />
+        </div>
+        <div class="input-wrapper">
+          <label for="summary">Summary</label>
+          <textarea class="textarea input" id="summary"></textarea>
+        </div>
+        <input id="id" type="hidden" />
+        <div class="alert-container"></div>
+        <div class="button-container">
+          <button class="button add-button">Update</button>
+          <div class="delete-container"></div>
+        </div>
+      </form>
+    </div>
+    <footer><div>Javascript 2 CA</div> | <div>Tommy Johnsen - 2021</div></footer>
+    <script src="js/edit.js" type="module"></script>
+  </body>
+</html>
