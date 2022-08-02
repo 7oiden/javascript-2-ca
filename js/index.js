@@ -14,7 +14,7 @@ renderNav();
     renderArticles(json);
     searchArticles(json);
   } catch (error) {
-    displayAlert("error", "An error has occured when trying to fetch the API", ".article-container");
+    displayAlert("error", "An error has occurred when trying to fetch the API", ".article-container");
     //console.log(error);
   }
 })();
